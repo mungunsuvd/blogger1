@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Skill Share</title>
+
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="../Blogger1/uikit/css/uikit.min.css">
+    <script type="text/javascript" src="../Blogger1/uikit/js/uikit.min.js"></script>
+    <script src="../Blogger1/uikit/js/uikit-icons.min.js"></script>
+</head>
+<body>
+    <section class="uk-section uk-section-xsmall" uk-height-viewport="offset-top: true">
+        <div class="uk-container">
+            <div class="uk-flex uk-flex-center">
+                <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-width-large">
+                    <h3>Бүртгүүлэх</h3>
+                    <form class="uk-form-stacked" action="" method="post">
+                       
+                        <div class="uk-margin">
+                            <label class="uk-form-label" for="email">
+                                Цахим шуудан 
+                            </label>
+                            <div class="uk-form-controls">
+                                <div class="uk-inline uk-width-1-1">
+                                    <a class="uk-form-icon uk-form-icon-flip" uk-tooltip="title: Alpha-numeric characters.<br>This field is required.; pos: bottom-right"><i class="fas fa-info-circle"></i></a>
+                                    <input class="uk-input" id="email" name="email" type="varchar">
+                                </div>
+                            </div>
+                        </div>
+                       
+                        <div class="uk-margin">
+                            <label class="uk-form-label" for="phone">
+                                Утасны дугаар 
+                            </label>
+                            <div class="uk-form-controls">
+                                <div class="uk-inline uk-width-1-1">
+                                    <a class="uk-form-icon uk-form-icon-phone" uk-tooltip="title: Must be a valid phone number.<br>One account per phone.<br>This field is required.; pos: bottom-right"><i class="fas fa-info-circle"></i></a>
+                                    <input class="uk-input" id="phone" name="phone" type="number">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <label class="uk-form-label" for="password">
+                                Нууц үг 
+                            </label>
+                            <div class="uk-form-controls">
+                                <div class="uk-inline uk-width-1-1">
+                                    <a class="uk-form-icon uk-form-icon-flip" uk-tooltip="title: Minimum 8 characters.<br>This field is required.; pos: bottom-right"><i class="fas fa-info-circle"></i></a>
+                                    <input class="uk-input" id="password" name="password" type="password">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <label class="uk-form-label" for="repeat_password">
+                                Нууц үг дахин оруулах 
+                            
+                            </label>
+                            <div class="uk-form-controls">
+                                <div class="uk-inline uk-width-1-1">
+                                    <a class="uk-form-icon uk-form-icon-flip" uk-tooltip="title: Must match the password field.<br>This field is required.; pos: bottom-right"><i class="fas fa-info-circle"></i></a>
+                                    <input class="uk-input" id="repeat_password" name="repeat_password" type="password">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="uk-button uk-button-secondary uk-width-1-1" type="submit">Бүртгүүлэх</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
